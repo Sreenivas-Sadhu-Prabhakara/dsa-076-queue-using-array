@@ -12,6 +12,13 @@ Treat the array as a ring: the back lives at `(head + size) % capacity`, and deq
 
 **Complexity:** all operations O(1); capacity ints of storage.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
